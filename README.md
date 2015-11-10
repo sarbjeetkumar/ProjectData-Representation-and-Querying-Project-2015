@@ -11,9 +11,9 @@ The dataset is recived originally in the CSV (comma separated values) , and can 
 
 The data has 1186 rows , Which cover's all the disabled parking bays on streets and roads with the Fingal County Council administrative area. The dataset contains 12 columns .
 
-1 . ID
-2 . Area Description
-3 . Road Name
+1. ID
+2. Area Description
+3. Road Name
 
 
 
