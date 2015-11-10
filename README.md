@@ -1,7 +1,9 @@
-# Project Data-Representation-and-Querying-Project-2015
-#Dataset Name 
-## 19th October 2015
-### Sarabjeet Kumar 
+# Project Title
+##Data-Representation-and-Querying-Project-2015
+#Name
+###Sarabjeet Kumar
+
+##Introduction
 
 
 This is a paragraph with some text . This is a another sentence .
