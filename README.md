@@ -1,7 +1,7 @@
 # Project Title
-##Data-Representation-and-Querying-Project-2015
+#####Data-Representation-and-Querying-Project-2015
 #Name
-###Sarabjeet Kumar
+#####Sarabjeet Kumar
 
 ##Introduction
 This project is using the dataset '**Disabled parking bays on streets and roads of the Fingal County Council**' which can be found at the following url https://data.gov.ie/dataset/disabled-parking-spaces. Although the data is only based on information from the Fingal county council.
@@ -55,7 +55,7 @@ https://data.gov.ie/disabled-parking-spaces/156
 
 
 
-####This is the first entry in the dataset in JSON Format , This will give you the rougph idea that how the data is laid out using the above headings.
+####This is the first entry in the dataset in JSON Format , This will give you the rough idea that how the data is laid out using the above headings.
 
 ```json
 [{
@@ -74,7 +74,8 @@ https://data.gov.ie/disabled-parking-spaces/156
 
 },]
 ```
-####Pulling the data from the dataset using , Recieving a list of all Disabled parking bays.
+####Pulling the data from the dataset using GET Method , Recieving a list of all Disabled parking bays.
+
 
 
 
