@@ -13,25 +13,27 @@ The data has 1186 rows , Which cover's all the disabled parking bays on streets 
 
 **Type of information can be retrieved with each field**
 
-1. ID : 1
-2. Area Description : Chapel Street
-3. Road Name :  Clonard Road 
-4. Area : ?
-5. Total Spaces : 1,2,5
-6. Dipped footpath :True/False
-7. Park Sign : True/False
-8. Road Marking  : True/False
-9. Occupied : True/False
-10. Adjacent Services : Cinema , Cafe , Housing
-11. Latitude : 53.61029459
-12. Longitude : -6.186854504
+Field | Value
+------|--------
+"ID"   |  1
+" Area Description"  |  Chapel Street
+"Road Name"   |  Clonard Road 
+" Area"   |  North/south/east/west
+"Total Spaces"  | 1,2,5
+"Dipped footpath"   | True/F
+"Park Sign"  |  True/False
+"Road Marking"   |  True/False
+"Occupied " True/False
+"Adjacent Services2  | Cinema , Cafe , Housing
+"Latitude"  | 53.61029459
+" Longitude "  | -6.186854504
 
 **For more information about fields you can click**  [Me] (https://data.gov.ie/dataset/disabled-parking-spaces)
 
 ##URL(Uniform Resource Locator)
 
-Field | Value
-------|--------
-www  |  Subdomain
+
+
+  
 
 
