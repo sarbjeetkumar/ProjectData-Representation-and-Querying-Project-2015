@@ -23,7 +23,7 @@ Field | Value
 "Dipped footpath"   | True/F
 "Park Sign"  |  True/False
 "Road Marking"   |  True/False
-"Occupied " True/False
+"Occupied "  | True/False
 "Adjacent Services2  | Cinema , Cafe , Housing
 "Latitude"  | 53.61029459
 " Longitude "  | -6.186854504
