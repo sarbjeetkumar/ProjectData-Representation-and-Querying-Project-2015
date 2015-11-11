@@ -26,6 +26,6 @@ The data has 1186 rows , Which cover's all the disabled parking bays on streets 
 11. Latitude : 53.61029459
 12. Longitude : -6.186854504
 
-**For more information about fields you can click  ** [Me] (https://data.gov.ie/dataset/disabled-parking-spaces)
+**For more information about fields you can click**  [Me] (https://data.gov.ie/dataset/disabled-parking-spaces)
 
 
