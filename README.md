@@ -85,8 +85,8 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
 [
     {
              "ID"  :   1
-      " Area Description" : Chapel Street
-      "Road Name"  : Clonard Road 
+      " Area Description" : "Chapel Street"
+      "Road Name"  : "Clonard Road" 
        "Area" :  North/south/east/west
       "Total Spaces"  : 1,2,5
       "Dipped footpath"  : True/F
@@ -96,7 +96,7 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
       "Adjacent Services2"  : Cinema , Cafe , Housing
       "Latitude" : 53.61029459
       "Longitude" : -6.186854504
-    }
+    },
     {.......}
     
 ]
