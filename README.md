@@ -38,7 +38,26 @@ https://data.gov.ie/disabled-parking-spaces/156
 ---------|------------|-----------------|----------
 **http** | Protocal   |  **data.gov.ie** | domain name 
 **disabled-parking-spaces** | Path    |   **Port** | 80
-**156**  | Parameter |                                   
+**156**  | Parameter |              
+
+##This is the first entry in the dataset in JSON Format , This will give you the rouph idea that how the data is laid out using the above headings.
+
+{
+    **"ID"**   |  1
+  **" Area Description"**  |  Chapel Street
+  **"Road Name"**   |  Clonard Road 
+   **"Area"*   |  North/south/east/west
+  **"Total Spaces"**  | 1,2,5
+  **"Dipped footpath"**   | True/F
+  **"Park Sign"**  |  True/False
+  **"Road Marking"**   |  True/False
+  **"Occupied"**  | True/False
+  **"Adjacent Services2"**  | Cinema , Cafe , Housing
+  **"Latitude"**  | 53.61029459
+  **"Longitude"**  | -6.186854504
+
+}
+
 
 
 
