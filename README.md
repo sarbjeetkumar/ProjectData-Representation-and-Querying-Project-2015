@@ -76,7 +76,7 @@ https://data.gov.ie/disabled-parking-spaces/156
 ```
 ####Pulling the data from the dataset using GET Method , Recieving a list of all Disabled parking bays.
 
-http://fingaldisabledparkingspaces.com/all
+http://fingaldisabledparkingspaces.com/carpark-api/all
 
 using "all" after ".../all/" will return an array of all the disabled car parks , in JSON format.
 
@@ -101,8 +101,29 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
     
 ]
 ```
+####Add 
+#####uniform resource locator 
 
+        http://fingaldisabledparkingspaces.com/carpark-api/add?
+        
+######use Post Method
 
+Field | Value
+------|--------
+**"ID"**   |  1
+**" Area Description"**  |  Chapel Street
+**"Road Name"**   |  Clonard Road 
+ **"Area"*   |  North/south/east/west
+**"Total Spaces"**  | 1,2,5
+**"Dipped footpath"**   | True/F
+**"Park Sign"**  |  True/False
+**"Road Marking"**   |  True/False
+**"Occupied"**  | True/False
+**"Adjacent Services2"**  | Cinema , Cafe , Housing
+**"Latitude"**  | 53.61029459
+**"Longitude"**  | -6.186854504
+
+    
 
 
 
