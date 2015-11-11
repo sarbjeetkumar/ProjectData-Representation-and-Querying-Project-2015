@@ -42,7 +42,8 @@ https://data.gov.ie/disabled-parking-spaces/156
 
 ##This is the first entry in the dataset in JSON Format , This will give you the rouph idea that how the data is laid out using the above headings.
 
-{
+```json
+[{
     "ID"  :   1
   " Area Description" : Chapel Street
   "Road Name"  : Clonard Road 
@@ -56,8 +57,8 @@ https://data.gov.ie/disabled-parking-spaces/156
   "Latitude" : 53.61029459
   "Longitude" : -6.186854504
 
-}
-
+},]
+```
 
 
 
