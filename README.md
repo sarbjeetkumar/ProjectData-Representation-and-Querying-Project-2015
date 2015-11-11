@@ -38,9 +38,15 @@ https://data.gov.ie/disabled-parking-spaces/156
 ---------|------------|-----------------|----------
 **http** | Protocal   |  **data.gov.ie** | domain name 
 **disabled-parking-spaces** | Path    |   **Port** | 80
-**156**  | Parameter |              
+**156**  | Parameter |    
 
-####This is the first entry in the dataset in JSON Format , This will give you the rouph idea that how the data is laid out using the above headings.
+
+####Http Request methods.
+***Methods* | **interpretation**
+1  |  **Get**      
+The GET method is used to retrieve information from the given server using a given URI. Requests using GET should only retrieve data and should have no other effect on the data.
+
+####This is the first entry in the dataset in JSON Format , This will give you the rougph idea that how the data is laid out using the above headings.
 
 ```json
 [{
@@ -59,6 +65,12 @@ https://data.gov.ie/disabled-parking-spaces/156
 
 },]
 ```
+####Pulling the data from the dataset using , Recieving a list of all Disabled parking bays.
+
+
+
+
+
 
 
 
