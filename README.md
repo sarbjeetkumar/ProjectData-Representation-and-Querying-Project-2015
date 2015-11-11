@@ -36,8 +36,8 @@ https://data.gov.ie/disabled-parking-spaces/156
 
 |**url**  **Values**  | **url**    **Values**|
 |---------------------|---------------------------|
-|**http** | Protocal     **data.gov.ie** | domain name |
-|**disabled-parking-spaces** | Path       **Port** | 80|
+|**http** | Protocal   |  **data.gov.ie** | domain name |
+|**disabled-parking-spaces** | Path    |   **Port** | 80|
 |**156**  | Parameter |
 
 
