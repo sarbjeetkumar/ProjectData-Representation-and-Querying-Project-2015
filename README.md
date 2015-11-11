@@ -28,4 +28,10 @@ The data has 1186 rows , Which cover's all the disabled parking bays on streets 
 
 **For more information about fields you can click**  [Me] (https://data.gov.ie/dataset/disabled-parking-spaces)
 
+##URL(Uniform Resource Locator)
+
+Field | Value
+--------------
+www  |  Subdomain
+
 
