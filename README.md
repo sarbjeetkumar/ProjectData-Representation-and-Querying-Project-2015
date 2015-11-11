@@ -108,25 +108,21 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
         
 ######use Post Method
 
+
 Field | Value
 ------|--------
-**"ID"**   |  1
-**" Area Description"**  |  Chapel Street
-**"Road Name"**   |  Clonard Road 
- **"Area"*   |  North/south/east/west
-**"Total Spaces"**  | 1,2,5
+**"ID"**   | id Number of that row
+**" Area Description"**  |  Name of are
+**"Road Name"**   |  Name of the road  
+**"Area"*   |  North/south/east/west
+**"Total Spaces"**  | How many spaces
 **"Dipped footpath"**   | True/F
 **"Park Sign"**  |  True/False
 **"Road Marking"**   |  True/False
-**"Occupied"**  | True/False
+**"Occupied"**  | Yes/No
 **"Adjacent Services2"**  | Cinema , Cafe , Housing
-**"Latitude"**  | 53.61029459
-**"Longitude"**  | -6.186854504
-
-    
-
-
-
+**"Latitude"**  | The long version of the latitute coordinates
+**"Longitude"**  | The long version of the longtitute coordinates
 
 
 
