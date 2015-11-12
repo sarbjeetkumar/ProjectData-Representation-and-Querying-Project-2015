@@ -30,6 +30,26 @@ Field | Value
 
 **For more information about fields you can click**  [Me] (https://data.gov.ie/dataset/disabled-parking-spaces)
 
+####This is the first entry in the dataset in JSON Format , This will give you the rough idea that how the data is laid out using the above headings.
+
+```json
+[{
+    "ID"  :   1
+  " Area Description" : Chapel Street
+  "Road Name"  : Clonard Road 
+   "Area" :  North/south/east/west
+  "Total Spaces"  : 1,2,5
+  "Dipped footpath"  : True/F
+  "Park Sign"  :  True/False
+  "Road Marking"   :  True/False
+  "Occupied" : True/False
+  "Adjacent Services2"  : Cinema , Cafe , Housing
+  "Latitude" : 53.61029459
+  "Longitude" : -6.186854504
+    
+},]
+```
+
 ####URL(Uniform Resource Locator)
 
 https://data.gov.ie/disabled-parking-spaces/156
@@ -55,25 +75,7 @@ https://data.gov.ie/disabled-parking-spaces/156
 
 
 
-####This is the first entry in the dataset in JSON Format , This will give you the rough idea that how the data is laid out using the above headings.
 
-```json
-[{
-    "ID"  :   1
-  " Area Description" : Chapel Street
-  "Road Name"  : Clonard Road 
-   "Area" :  North/south/east/west
-  "Total Spaces"  : 1,2,5
-  "Dipped footpath"  : True/F
-  "Park Sign"  :  True/False
-  "Road Marking"   :  True/False
-  "Occupied" : True/False
-  "Adjacent Services2"  : Cinema , Cafe , Housing
-  "Latitude" : 53.61029459
-  "Longitude" : -6.186854504
-    
-},]
-```
 ####Pulling the data from the dataset using GET Method , Recieving a list of all Disabled parking bays.
 
 http://fingaldisabledparkingspaces.com/carpark-api/all
