@@ -127,7 +127,7 @@ Field | Value
 **"Longitude"**  | The long version of the longtitute coordinates
 
 
-This all feilds must be passed to the body of the request. which **Returns** a json object with response value .
+This all feilds must be passed to the body of the request. which **Returns** a json object with response value .When you want to add a new disable car park.
 
 **Response**
 
@@ -155,7 +155,7 @@ This all feilds must be passed to the body of the request. which **Returns** a j
          http://fingaldisabledparkingspaces.com/carpark-api/update?id=[id number]&fields=[fields]&values=[values]
 
 
-#####using Post Method
+#####using Put Method
     
     Field | Value
 ------|--------
@@ -180,7 +180,6 @@ Returns a JSON bject with response is true/false . If the values provided matche
 
 
 ```
-
 
 
     
