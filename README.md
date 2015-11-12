@@ -150,11 +150,11 @@ This all feilds must be passed to the body of the request. which **Returns** a j
 
 #####Update Method
 
-    #####uniform resource locator (url) <Structure>
+#####uniform resource locator (url) <Structure>
     
          http://fingaldisabledparkingspaces.com/carpark-api/update?id=[id number]&fields=[fields]&values=[values]
 
-    #####using Post Method
+ #####using Post Method
     
     Field | Value
 ------|--------
