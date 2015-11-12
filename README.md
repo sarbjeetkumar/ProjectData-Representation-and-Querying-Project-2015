@@ -148,7 +148,7 @@ This all feilds must be passed to the body of the request. which **Returns** a j
 }
 ````
 
-#####Update Method
+####Update Method
 
 #####uniform resource locator (url) <Structure>
     
@@ -163,7 +163,7 @@ This all feilds must be passed to the body of the request. which **Returns** a j
 **" fields"**  |  fields you want to change in that row 
 **"Values"**   |  The new values of the feilds you want to change/update 
 
-Single values or multiple values can ba change at one time .
+Single values or multiple values can ba change at one time . To update the diable car parks in current area
 
 #####Response
 Returns a JSON bject with response is true/false . If the values provided matches with criteria.
@@ -181,7 +181,9 @@ Returns a JSON bject with response is true/false . If the values provided matche
 ```
 
 
-    
+###Conclusion
+
+Due to nature of that dataset , because this dataset belongs to the disable people car park . A user may not delete the entry because you have to place a special place for the people who needs special needs and user cannot delete that space which is reserverd for disable people.
     
 
 
