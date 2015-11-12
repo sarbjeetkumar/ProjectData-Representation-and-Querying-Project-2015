@@ -107,7 +107,7 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
 ######uniform resource locator 
 
         http://fingaldisabledparkingspaces.com/carpark-api/add?
-        
+   
 ######use Post Method
 
 
@@ -161,7 +161,6 @@ This all feilds must be passed to the body of the request. which **Returns** a j
 ------|--------
 **"ID"**   |  id number of that row you want to change
 **" fields"**  |  fields you want to change in that row 
-
 **"Values"**   |  The new values of the feilds you want to change/update 
 
 Single values or multiple values can ba change at one time .
