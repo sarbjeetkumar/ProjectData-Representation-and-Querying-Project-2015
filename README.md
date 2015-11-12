@@ -183,7 +183,7 @@ Returns a JSON bject with response is true/false . If the values provided matche
 
 ###Conclusion
 
-Due to nature of that dataset , because this dataset belongs to the disable people car park . A user may not delete the entry because you have to place a special place for the people who needs special needs and user cannot delete that space which is reserverd for disable people.
+Due to nature of that dataset , because this dataset belongs to the disable people car park . A user may not delete the entry because you have to give place for the people who needs special needs and user cannot delete that space which is reserverd for disable people.
     
 
 
