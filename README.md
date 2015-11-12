@@ -34,18 +34,18 @@ Field | Value
 
 ```json
 [{
-    "ID"  :   1
-  " Area Description" : Chapel Street
-  "Road Name"  : Clonard Road 
-   "Area" :  North/south/east/west
-  "Total Spaces"  : 1,2,5
-  "Dipped footpath"  : True/F
-  "Park Sign"  :  True/False
-  "Road Marking"   :  True/False
-  "Occupied" : True/False
-  "Adjacent Services2"  : Cinema , Cafe , Housing
-  "Latitude" : 53.61029459
-  "Longitude" : -6.186854504
+    "ID"  :   1,
+  " Area Description" : Chapel Street,
+  "Road Name"  : Clonard Road ,
+   "Area" :  North/south/east/west,
+  "Total Spaces"  : 1,2,5,
+  "Dipped footpath"  : True/F,
+  "Park Sign"  :  True/False,
+  "Road Marking"   :  True/False,
+  "Occupied" : True/False,
+  "Adjacent Services2"  : Cinema , Cafe , Housing,
+  "Latitude" : 53.61029459,
+  "Longitude" : -6.186854504,
     
 },]
 ```
@@ -86,18 +86,18 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
 ```json
 [
     {
-             "ID"  :   1
-      " Area Description" : "Chapel Street"
-      "Road Name"  : "Clonard Road" 
-       "Area" :  North/south/east/west
-      "Total Spaces"  : 1,2,5
-      "Dipped footpath"  : True/F
-      "Park Sign"  :  True/False
-      "Road Marking"   :  True/False
-      "Occupied" : True/False
-      "Adjacent Services2"  : Cinema , Cafe , Housing
-      "Latitude" : 53.61029459
-      "Longitude" : -6.186854504
+             "ID"  :   1,
+      " Area Description" : "Chapel Street",
+      "Road Name"  : "Clonard Road" ,
+       "Area" :  North/south/east/west,
+      "Total Spaces"  : 1,2,5,
+      "Dipped footpath"  : True/F,
+      "Park Sign"  :  True/False,
+      "Road Marking"   :  True/False,
+      "Occupied" : True/False,
+      "Adjacent Services2"  : Cinema , Cafe , Housing,
+      "Latitude" : 53.61029459,
+      "Longitude" : -6.186854504,
     },
     {.......}
     
@@ -133,18 +133,18 @@ This all feilds must be passed to the body of the request. which **Returns** a j
 
 ````
 {
-      "ID"  :   1
-      " Area Description" : "Chapel Street"
-      "Road Name"  : "Clonard Road" 
-       "Area" :  North
-      "Total Spaces"  : 4
-      "Dipped footpath"  : True
-      "Park Sign"  :  True
-      "Road Marking"   :  True
-      "Occupied" : True/False
-      "Adjacent Services2"  : Cinema 
-      "Latitude" : 53.61029459
-      "Longitude" : -6.186854504
+      "ID"  :   1,
+      " Area Description" : "Chapel Street",
+      "Road Name"  : "Clonard Road" ,
+       "Area" :  North,
+      "Total Spaces"  : 4,
+      "Dipped footpath"  : True,
+      "Park Sign"  :  True,
+      "Road Marking"   :  True,
+      "Occupied" : True/False,
+      "Adjacent Services2"  : Cinema, 
+      "Latitude" : 53.61029459,
+      "Longitude" : -6.186854504,
 }
 ````
 
@@ -154,13 +154,35 @@ This all feilds must be passed to the body of the request. which **Returns** a j
     
          http://fingaldisabledparkingspaces.com/carpark-api/update?id=[id number]&fields=[fields]&values=[values]
 
- #####using Post Method
+
+#####using Post Method
     
     Field | Value
 ------|--------
 **"ID"**   |  id number of that row you want to change
 **" fields"**  |  fields you want to change in that row 
+
 **"Values"**   |  The new values of the feilds you want to change/update 
+
+Single values or multiple values can ba change at one time .
+
+#####Response
+Returns a JSON bject with response is true/false . If the values provided matches with criteria.
+
+```
+{
+    "response" : true,
+    "id": 21,
+    " Area Description" : "Chapel Street",
+    "Road Name"  : "Clonard Road" ,
+
+}
+
+
+```
+
+
+
     
     
 
