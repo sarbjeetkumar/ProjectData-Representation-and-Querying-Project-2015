@@ -104,7 +104,7 @@ using "all" after ".../all/" will return an array of all the disabled car parks 
 ]
 ```
 ####Add 
-#####uniform resource locator 
+######uniform resource locator 
 
         http://fingaldisabledparkingspaces.com/carpark-api/add?
         
@@ -148,7 +148,21 @@ This all feilds must be passed to the body of the request. which **Returns** a j
 }
 ````
 
+#####Update Method
 
+    #####uniform resource locator (url) <Structure>
+    
+         http://fingaldisabledparkingspaces.com/carpark-api/update?id=[id number]&fields=[fields]&values=[values]
+
+    #####using Post Method
+    
+    Field | Value
+------|--------
+**"ID"**   |  id number of that row you want to change
+**" fields"**  |  fields you want to change in that row 
+**"Values"**   |  The new values of the feilds you want to change/update 
+    
+    
 
 
 
